@@ -96,4 +96,4 @@ parser.add_argument(
 <img src="examples/example_test1.png" alt="Анализ одного файла" width="800"/>
 
 ### Анализ нескольких файлов
-<img src="examples/image.png" alt="Анализ нескольких файлов" width="800"/>
+<img src="examples/example_test2.png" alt="Анализ нескольких файлов" width="800"/>
