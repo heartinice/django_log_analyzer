@@ -1,4 +1,4 @@
-from src.log_analyzer.core.parser import LogParser
+from src.core.parser import LogParser
 import pytest
 from datetime import datetime
 

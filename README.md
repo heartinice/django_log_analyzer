@@ -25,14 +25,14 @@ cd django-log-analyzer
 
 2. Создайте виртуальное окружение и активируйте его:
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  
 ```
 
 3. Установите зависимости:
 ```bash
 pip install -r requirements.txt
-pip install -r requirements-dev.txt  # для разработки
+pip install -r requirements-dev.txt  
 ```
 
 ## Использование

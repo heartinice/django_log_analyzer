@@ -1,14 +1,10 @@
 #!/usr/bin/env python3
-from src.log_analyzer.cli import parse_args
-from src.log_analyzer.core.processor import LogProcessor
-from src.log_analyzer.reports.handlers import HandlersReport
+from src.cli import parse_args
+from src.core.processor import LogProcessor
+from src.reports.handlers import HandlersReport
 
 
 def main() -> None:
-    """
-    Основная точка входа в приложение.
-    Парсит аргументы командной строки и запускает обработку логов.
-    """
     args = parse_args()
     processor = LogProcessor(args.log_files)
     
